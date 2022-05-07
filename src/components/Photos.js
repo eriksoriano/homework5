@@ -1,7 +1,7 @@
 import React from "react"
 
 // fragment <> are needed b/c react dont like otherwise
-function Contact () {
+function Photos () {
     return(
         <>
 
@@ -24,4 +24,4 @@ function Contact () {
 }
 
 // must be included to be exported
-export default Contact;
+export default Photos;
