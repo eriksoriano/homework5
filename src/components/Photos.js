@@ -6,7 +6,7 @@ function Photos () {
         <>
 
 <div className="container" style={{width: "60%", marginTop: "104px"}}>
-      <h1>Contact Us</h1>
+      <h1>Some of my private photos</h1>
       <form>
         <label className="form-label">Name</label>
         <input className="form-control" type="text" />
