@@ -4,7 +4,7 @@ import React from "react"
 function Home () {
     return(
         <>
-            <section className="py-4 py-xl-5" style={{margin: "4rem"}}>
+      <section className="py-4 py-xl-5" style={{margin: "4rem"}}>
       <div className="container h-100">
         <div
           className="text-dark bg-warning bg-gradient border rounded border-0 p-4 py-5"
@@ -19,10 +19,11 @@ function Home () {
                 </h1>
                 <p className="mb-4">
                   I have learned so much this semester, I am infatuated with javascript wow.
+                  I am excited for summer 2022 because I am starting a new job at Uhealth IT, and also will travel to other states
                 </p>
-                <button className="btn btn-light fs-5 py-2 px-4" type="button">
+                {/* <button className="btn btn-light fs-5 py-2 px-4" type="button">
                   Button
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

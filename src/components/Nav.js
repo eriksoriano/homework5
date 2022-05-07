@@ -31,17 +31,23 @@ function Nav () {
             <li className="nav-item">
               <Link className="nav-link active" to="/">Home</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/teams">Our Team</Link>
+            </li> */}
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About Us</Link>
+              <Link className="nav-link" to="/playlist">Playlist</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/photos">Photos</Link>
             </li>
           </ul>
-          <Link
+          {/* <Link
             className="btn btn-primary bg-secondary ms-md-2"
             role="button"
-            to="/contact">Contact Us</Link>
+            to="/contact">Contact Us</Link> */}
         </div>
       </div>
     </nav>

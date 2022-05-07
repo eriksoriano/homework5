@@ -4,3 +4,7 @@ footer{
   bottom: 0;
   width: 100%;
 }
+
+body {
+  background-color: rgb(149, 104, 255);
+}
