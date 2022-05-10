@@ -3,109 +3,65 @@ import React from "react"
 // fragment <> are needed b/c react dont like otherwise
 function About () {
     return(
-        <>
-            <div className="container py-4 py-xl-5">
+    <>
+    <section className="sec2">
+      <div className="container py-4 py-xl-5">
       <div className="row mb-5">
-        <div className="col-md-8 col-xl-6 text-center mx-auto">
-          <h2>Heading</h2>
+        <div className="col-md-8 col-xl-6 mx-auto">
+        <h1 className="big-text">
+            A little Bio on DJ Gus
+        </h1>
           <p className="w-lg-50">
-            Curae hendrerit donec commodo hendrerit egestas tempus, turpis
-            facilisis nostra nunc. Vestibulum dui eget ultrices.
+            (a.k.a. Erik Gustavo Soriano)
           </p>
-        </div>
-      </div>
-      <div className="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-        <div className="col">
-          <div className="card">
-            <img
-              className="card-img-top w-100 d-block fit-cover"
-              style={{height: "200px"}}
-              src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt=""/>
-            <div className="card-body p-4">
-              <p className="text-warning card-text mb-0">Article</p>
-              <h4 className="card-title">Lorem libero donec</h4>
-              <p className="card-text">
-                Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
-                justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
-                elit non mi porta gravida at eget metus.
-              </p>
-              <div className="d-flex">
-                <img
-                  className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                  width="50"
-                  height="50"
-                  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt=""
-                />
-                <div>
-                  <p className="fw-bold mb-0">John Smith</p>
-                  <p className="text-muted mb-0">Erat netus</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <img
-              className="card-img-top w-100 d-block fit-cover"
-              style={{height: "200px"}}
-              src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt=""
-            />
-            <div className="card-body p-4">
-              <p className="text-warning card-text mb-0">Article</p>
-              <h4 className="card-title">Lorem libero donec</h4>
-              <p className="card-text">
-                Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
-                justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
-                elit non mi porta gravida at eget metus.
-              </p>
-              <div className="d-flex">
-                <img
-                  className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                  width="50"
-                  height="50"
-                  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt=""
-                />
-                <div>
-                  <p className="fw-bold mb-0">John Smith</p>
-                  <p className="text-muted mb-0">Erat netus</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <img
-              className="card-img-top w-100 d-block fit-cover"
-              style={{height: "200px"}}
-              src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt=""
-            />
-            <div className="card-body p-4">
-              <p className="text-warning card-text mb-0">Article</p>
-              <h4 className="card-title">Lorem libero donec</h4>
-              <p className="card-text">
-                Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
-                justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
-                elit non mi porta gravida at eget metus.
-              </p>
-              <div className="d-flex">
-                <img
-                  className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                  width="50"
-                  height="50"
-                  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt=""
-                />
-                <div>
-                  <p className="fw-bold mb-0">John Smith</p>
-                  <p className="text-muted mb-0">Erat netus</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* education section */}
+          <p>
+            E D U C A T I O N:
+            <br></br>
+            2021 - Present
+            <br></br>
+            <strong>Master of Fine Arts (MFA) - Interactive Media</strong>
+            <ul>
+              <li>User Experience Research (UX)</li>
+              <li>Mobile Apps Development</li>
+              <li>Front End Development</li>
+              <li>UI/UX Design</li>
+            </ul>
+            <hr></hr>
+          </p>
+          {/* education section */}
+
+          {/* work section */}
+          <p>
+            E X P E R I E N C E:
+            <br></br>
+            <strong>User Design Analyst</strong>
+            <br></br>
+            2022 - Present
+            <br></br>
+            University of Miami Health System (Uhealth IT)
+            <br></br>
+            <h4>Miami, Florida</h4>
+            <hr></hr>
+            <br></br>
+            <strong>Graphic Designer</strong>
+            <br></br>
+            2018 - 2022
+            <br></br>
+            Chariff Realty Group
+            <br></br>
+            <h4>Miami, Florida</h4>
+            <hr></hr>
+
+          </p>
+
+
+
         </div>
       </div>
     </div>
+    </section>
+ 
         </>
     )
 }

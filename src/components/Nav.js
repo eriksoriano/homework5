@@ -6,10 +6,10 @@ import {Link} from "react-router-dom"
 function Nav () {
     return(
         <>
-            <nav className="navbar navbar-light navbar-expand-md py-3">
+      <nav className="navbar navbar-light navbar-expand-md py-3">
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/"><span
-            className="bs-icon-md bs-icon-rounded bs-icon-primary bg-warning d-flex justify-content-center align-items-center me-2 bs-icon"><svg
+            className="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg
               xmlns="http://www.w3.org/2000/svg"
               width="1em"
               height="1em"
