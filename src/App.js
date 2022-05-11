@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
 import './App.css'
 import About from "./components/About"
-import Photos from "./components/Photos"
+import Videos from "./components/Videos"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Nav from "./components/Nav"
-import Teams from "./components/Teams"
+// import Teams from "./components/Teams"
 import Playlist from "./components/Playlist"
+// import img from "src/components/img/profile.jpg"
 import { HashRouter, Routes, Route} from "react-router-dom"
+
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
     <Route path={"/"} element={<Home />} />
     {/* <Route path={"/teams"} element={<Teams />} /> */}
     <Route path={"/about"} element={<About />} />
-    <Route path={"/photos"} element={<Photos />} />
+    <Route path={"/videos"} element={<Photos />} />
     <Route path={"/playlist"} element={<Playlist />} />
     </Routes>
     <Footer />

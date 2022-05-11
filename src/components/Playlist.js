@@ -67,6 +67,8 @@ function Playlist () {
         <div className="container">
         <div className="playlist">
         <iframe style={{bordeRadius:"12px"}} src="https://open.spotify.com/embed/playlist/1CijWZA4k8mtjrFwGVpQAO?utm_source=generator&theme=0" width="100%" height="700" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <br></br>
+        <br></br>      
         <br></br>      
         </div>
         </div>
