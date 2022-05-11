@@ -66,8 +66,7 @@ function Playlist () {
         </section>
         <div className="container">
         <div className="playlist">
-        <iframe style={{bordeRadius:"12px"}} src="https://open.spotify.com/embed/playlist/1CijWZA4k8mtjrFwGVpQAO?utm_source=generator&theme=0" width="100%" height="700" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        <br></br>      
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5Zj7nfFku6OoXZL6R0GOFN?utm_source=generator" width="100%" height="700" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>        <br></br>      
         </div>
         </div>
 
