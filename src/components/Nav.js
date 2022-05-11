@@ -41,7 +41,7 @@ function Nav () {
               <Link className="nav-link" to="/playlist">Playlist</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/photos">Photos</Link>
+              <Link className="nav-link" to="/videos">Videos</Link>
             </li>
           </ul>
           {/* <Link

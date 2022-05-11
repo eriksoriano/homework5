@@ -19,9 +19,10 @@ function Home () {
                 </h1>
                 <p>
                   I have learned so much this semester, I am infatuated with javascript wow.
-                  I am excited for summer 2022 because I am starting a new job at Uhealth IT, and also will travel to other states
+                  I am excited for summer 2022 because I finally get to relax, and enjoy myself after a long first year of master's degree.
                 </p>
               </div>
+
             </div>
           </div>
         </div>
