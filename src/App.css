@@ -11,7 +11,7 @@ p {
 .footer{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
   background-color: rgb(105, 41, 255);
@@ -20,6 +20,7 @@ p {
 
 body {
   background-color: rgb(149, 104, 255);
+  color: white;
 }
 
 .sec1 {
@@ -35,6 +36,11 @@ body {
 .big-text {
   font-size: 6rem;
   color: white;
+}
+
+.big-text-dark {
+  font-size: 6rem;
+  color: black;
 }
 
 .playlist {
@@ -53,3 +59,36 @@ body {
   background-color: rgb(52, 12, 145);
 
 }
+
+
+.sec3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 2rem;
+  background-color: #202020;
+
+}
+
+.sec4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  background-color: #cbff5a;
+
+}
+
+
+.sec5 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 2rem;
+  background-color: #ff00a6;
+
+}
+

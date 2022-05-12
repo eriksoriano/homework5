@@ -35,13 +35,13 @@ function About () {
           <p>
             E X P E R I E N C E:
             <br></br>
-            <strong>User Design Analyst</strong>
+            <strong>Graphic Designer</strong>
             <br></br>
-            2022 - Present
+            2018 - Present
             <br></br>
-            University of Miami Health System (Uhealth IT)
+            Freelance
             <br></br>
-            <h4>Miami, Florida</h4>
+            <h4>Miami-Dade County, Florida</h4>
             <hr></hr>
             <br></br>
             <strong>Graphic Designer</strong>
